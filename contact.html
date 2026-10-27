@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Portfolio — Contact</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><nav>
+  <a class="logo" href="index.html">Contact Information</a>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Me</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+  </ul>
+</nav></header>
+<main class="wrap">
+  <h2 class="sec-title">Contact</h2>
+  <p class="sec-sub">Want to work together or just say hi? Reach out.</p>
+  <div class="two contact">
+    <div class="card">
+      <ul>
+        <!-- Replace these with your real details -->
+        <li><b>Email:</b> <a href="mailto:athea.talanquines@gmail.com">athea.talanquines@gmail.com</a></li>
+        <li><b>Phone:</b> +63 999 395 3867</li>
+        <li><b>Location:</b> Bacolod City, Philippines</li>
+        <li><b>GitHub:</b> <a href="https://github.com/your-username" target="_blank" rel="noopener">https://github.com/misa1iki</a></li>
+        <li><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/athea-grace-talanquines-98aa53414/" target="_blank" rel="noopener">https://www.linkedin.com/in/athea-grace-talanquines-98aa53414/</a></li>
+      </ul>
+    </div>
+    <div class="card">
+      <!-- data-email = where messages are sent -->
+      <form id="msg-form" data-email="athea.talanquines@gmail.com">
+        <input id="f-name" placeholder="Your name" required>
+        <input id="f-email" type="email" placeholder="Your email" required>
+        <textarea id="f-msg" rows="5" placeholder="Your message" required></textarea>
+        <button class="btn primary" type="submit">Send message</button>
+      </form>
+    </div>
+  </div>
+</main>
+<footer>© <span id="yr"></span> Athea. Built with care in brown &amp; yellow.</footer>
+<script src="script.js"></script>
+</body>
+</html>

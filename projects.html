@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Portfolio — Projects</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><nav>
+  <a class="logo" href="index.html">My Projects</a>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Me</a></li>
+    <li><a href="projects.html" class="active">Projects</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav></header>
+<main class="wrap">
+  <h2 class="sec-title">My projects</h2>
+  <p class="sec-sub">Tap a category, then tap a card to open it.</p>
+
+  <!-- Category buttons: the text in data-cat must match the data-category of the cards -->
+  <div class="filters">
+    <button class="chip on" data-cat="All">All</button>
+    <button class="chip" data-cat="Newsletters &amp; Magazines">Newsletters &amp; Magazines</button>
+    <button class="chip" data-cat="Pubmats">Pubmats</button>
+    <button class="chip" data-cat="School Projects">School Projects</button>
+    <button class="chip" data-cat="Posters">Posters</button>
+    <button class="chip" data-cat="Photography">Photography</button>
+    <button class="chip" data-cat="Certificates">Certificates</button>
+  </div>
+
+  <div class="grid" id="grid">
+    <!-- SCHOOL PROJECTS -->
+    <article class="proj" data-category="School Projects">
+      <div class="thumb" data-m="thumb"><img src="images/schoolproj/luminesense.png" alt="LumineSense smart classroom project"></div>
+      <div class="body">
+        <span class="cat" data-m="cat">School Projects</span>
+        <h3 data-m="title">LumineSense</h3>
+        <p data-m="desc">An IoT-based smart classroom management system with a web dashboard for monitoring and control.</p>
+        <div class="tags" data-m="tags"><span class="tag">IoT</span><span class="tag">Web App</span><span class="tag">Capstone</span></div>
+      </div>
+    </article>
+    <article class="proj" data-category="School Projects">
+      <div class="thumb" data-m="thumb"><img src="images/schoolproj/APPDEV.png" alt="Application Development Project"></div>
+      <div class="body"><span class="cat" data-m="cat">School Projects</span><h3 data-m="title">Application Development</h3><p data-m="desc">A School project focused on creating HTML and CSS websites.</p><div class="tags" data-m="tags"><span class="tag">App Development</span></div></div>
+    </article>
+    <article class="proj" data-category="School Projects">
+      <div class="thumb" data-m="thumb"><img src="images/schoolproj/celest.png" alt="Celest school project"></div>
+      <div class="body"><span class="cat" data-m="cat">School Projects</span><h3 data-m="title">Celest Procurement System</h3><p data-m="desc">A Software Engineering project, where we chose a shop or company to make them their own system.</p><div class="tags" data-m="tags"><span class="tag">School Project</span></div></div>
+    </article>
+    <article class="proj" data-category="School Projects">
+      <div class="thumb" data-m="thumb"><img src="images/schoolproj/cybersectoplogy.png" alt="Cybersecurity topology project"></div>
+      <div class="body"><span class="cat" data-m="cat">School Projects</span><h3 data-m="title">UNO-R PhysicalTopology Map</h3><p data-m="desc">A Cybersecurity project focusing on creating a physical topology map.</p><div class="tags" data-m="tags"><span class="tag">Cybersecurity</span></div></div>
+    </article>
+    <article class="proj" data-category="School Projects">
+      <div class="thumb" data-m="thumb"><img src="images/schoolproj/quizzard.png" alt="Quizzard school project"></div>
+      <div class="body"><span class="cat" data-m="cat">School Projects</span><h3 data-m="title">Quizzard</h3><p data-m="desc">A Programming project focused on creating a quiz application.</p><div class="tags" data-m="tags"><span class="tag">Quiz App</span></div></div>
+    </article>
+    <!-- POSTERS -->
+    <article class="proj" data-category="Posters">
+      <div class="thumb" data-m="thumb"><img src="images/schoolproj/cybersecposter.png" alt="Cybersecurity poster design"></div>
+      <div class="body"><span class="cat" data-m="cat">Posters</span><h3 data-m="title">CSAM 2025 Infographics</h3><p data-m="desc">A school project creating infographics for the Cybersecurity Awareness Month 2025 event.</p><div class="tags" data-m="tags"><span class="tag">Cybersecurity</span></div></div>
+    </article>
+    <!-- NEWSLETTERS & MAGAZINES -->
+    <article class="proj" data-category="Newsletters &amp; Magazines">
+      <div class="thumb" data-m="thumb"><img src="images/news&amp;mag/chronmag1.png" alt="Campus magazine cover"></div>
+      <div class="body"><span class="cat" data-m="cat">Newsletters &amp; Magazines</span><h3 data-m="title">IT Chronicles Vol. 22 Issue 1</h3><p data-m="desc">Layout design for the IT Chronicles magazine, The official college publication of the College of Information Technology.</p><div class="tags" data-m="tags"><span class="tag">Magazine</span></div></div>
+    </article>
+    <article class="proj" data-category="Newsletters &amp; Magazines">
+      <div class="thumb" data-m="thumb"><img src="images/news&amp;mag/masskara24.png" alt="MassKara 2024 publication"></div>
+      <div class="body"><span class="cat" data-m="cat">Newsletters &amp; Magazines</span><h3 data-m="title">Masskara Wallnews 2024</h3><p data-m="desc">Layout Artist for the Tolentine Star Wallnews covering the happenings during the Masskara Festival 2024.</p><div class="tags" data-m="tags"><span class="tag">Publication</span></div></div>
+    </article>
+    <article class="proj" data-category="Newsletters &amp; Magazines">
+      <div class="thumb" data-m="thumb"><img src="images/news&amp;mag/newspaper1.png" alt="Newspaper layout"></div>
+      <div class="body"><span class="cat" data-m="cat">Newsletters &amp; Magazines</span><h3 data-m="title">Tolentine Star Newspaper 2025</h3><p data-m="desc">Layout Artist for the Tolentine Star Newspaper 2025.</p><div class="tags" data-m="tags"><span class="tag">Newspaper</span></div></div>
+    </article>
+    <article class="proj" data-category="Newsletters &amp; Magazines">
+      <div class="thumb" data-m="thumb"><img src="images/news&amp;mag/ucup1.png" alt="UCUP publication"></div>
+      <div class="body"><span class="cat" data-m="cat">Newsletters &amp; Magazines</span><h3 data-m="title">The Sportstar 2024.</h3><p data-m="desc">Layout design for the The Sportstar 2024 during the University Cup 2024, UNO-R.</p><div class="tags" data-m="tags"><span class="tag">Newsletter</span></div></div>
+    </article>
+    <article class="proj" data-category="Newsletters &amp; Magazines">
+      <div class="thumb" data-m="thumb"><img src="images/news&amp;mag/uweekday1.png" alt="University Week publication"></div>
+      <div class="body"><span class="cat" data-m="cat">Newsletters &amp; Magazines</span><h3 data-m="title">University Week 2023</h3><p data-m="desc">My first layout design for Tolentine Starduring University Week 2023.</p><div class="tags" data-m="tags"><span class="tag">Newsletter</span></div></div>
+    </article>
+    <!-- PUBMATS -->
+    <article class="proj" data-category="Pubmats">
+      <div class="thumb" data-m="thumb"><img src="images/pubmats/IWAG%202024.jpg" alt="IWAG 2024 event pubmat"></div>
+      <div class="body"><span class="cat" data-m="cat">Pubmats</span><h3 data-m="title">IWAG 2024</h3><p data-m="desc">Event publicity material.</p><div class="tags" data-m="tags"><span class="tag">Event Pubmat</span></div></div>
+    </article>
+    <article class="proj" data-category="Pubmats">
+      <div class="thumb" data-m="thumb"><img src="images/pubmats/NOPSSCEA%202025.jpg" alt="NOPSSCEA 2025 event pubmat"></div>
+      <div class="body"><span class="cat" data-m="cat">Pubmats</span><h3 data-m="title">Ms. NOPSSCEA 2025</h3><p data-m="desc">Event publicity material.</p><div class="tags" data-m="tags"><span class="tag">Event Pubmat</span></div></div>
+    </article>
+    <article class="proj" data-category="Pubmats">
+      <div class="thumb" data-m="thumb"><img src="images/pubmats/PAPAL%20NUNCIO.jpg" alt="Papal Nuncio event pubmat"></div>
+      <div class="body"><span class="cat" data-m="cat">Pubmats</span><h3 data-m="title">Papal Nuncio</h3><p data-m="desc">Event publicity material.</p><div class="tags" data-m="tags"><span class="tag">Event Pubmat</span></div></div>
+    </article>
+    <article class="proj" data-category="Pubmats">
+      <div class="thumb" data-m="thumb"><img src="images/pubmats/486573918_1061542636005697_3879566552619664849_n.jpg" alt="Event publicity material"></div>
+      <div class="body"><span class="cat" data-m="cat">Pubmats</span><h3 data-m="title">College Press Conference 2024</h3><p data-m="desc">Event publicity material.</p><div class="tags" data-m="tags"><span class="tag">Event Pubmat</span></div></div>
+    </article>
+    <article class="proj" data-category="Pubmats">
+      <div class="thumb" data-m="thumb"><img src="images/pubmats/486710150_1061542699339024_7442862123903055235_n.jpg" alt="Event publicity material"></div>
+      <div class="body"><span class="cat" data-m="cat">Pubmats</span><h3 data-m="title">College Press Conference 2024</h3><p data-m="desc">Event publicity material.</p><div class="tags" data-m="tags"><span class="tag">Event Pubmat</span></div></div>
+    </article>
+    <article class="proj" data-category="Pubmats">
+      <div class="thumb" data-m="thumb"><img src="images/pubmats/487239248_1061542449339049_1411472758512812483_n.jpg" alt="Event publicity material"></div>
+      <div class="body"><span class="cat" data-m="cat">Pubmats</span><h3 data-m="title">College Press Conference 2024</h3><p data-m="desc">Event publicity material.</p><div class="tags" data-m="tags"><span class="tag">Event Pubmat</span></div></div>
+    </article>
+    <article class="proj" data-category="Pubmats">
+      <div class="thumb" data-m="thumb"><img src="images/pubmats/546171210_122261318996025612_2912826097502724193_n.jpg" alt="Event publicity material"></div>
+      <div class="body"><span class="cat" data-m="cat">Pubmats</span><h3 data-m="title">Feast Of St. Ezekiel Moreno</h3><p data-m="desc">Event publicity material.</p><div class="tags" data-m="tags"><span class="tag">Event Pubmat</span></div></div>
+    </article>
+    <!-- PHOTOGRAPHY -->
+    <article class="proj" data-category="Photography">
+      <div class="thumb" data-m="thumb"><img src="images/photography/freshmen-day-2023.jpg" alt="Freshmen Day 2023 photography"></div>
+      <div class="body"><span class="cat" data-m="cat">Photography</span><h3 data-m="title">Freshmen Day 2023</h3><p data-m="desc">Event photography.</p><div class="tags" data-m="tags"><span class="tag">Photography</span></div></div>
+    </article>
+    <article class="proj" data-category="Photography">
+      <div class="thumb" data-m="thumb"><img src="images/photography/ash-wednesday-2024.jpg" alt="Ash Wednesday 2024 photography"></div>
+      <div class="body"><span class="cat" data-m="cat">Photography</span><h3 data-m="title">Ash Wednesday 2024</h3><p data-m="desc">Event photography.</p><div class="tags" data-m="tags"><span class="tag">Photography</span></div></div>
+    </article>
+    <article class="proj" data-category="Photography">
+      <div class="thumb" data-m="thumb"><img src="images/photography/cba-day.jpg" alt="CBA Day photography"></div>
+      <div class="body"><span class="cat" data-m="cat">Photography</span><h3 data-m="title">CBA Day 2024</h3><p data-m="desc">Event photography.</p><div class="tags" data-m="tags"><span class="tag">Photography</span></div></div>
+    </article>
+    <article class="proj" data-category="Photography">
+      <div class="thumb" data-m="thumb"><img src="images/photography/freshmen.jpg" alt="Freshmen event photography"></div>
+      <div class="body"><span class="cat" data-m="cat">Photography</span><h3 data-m="title">Mr. & Ms. Freshmen 2023</h3><p data-m="desc">Event photography.</p><div class="tags" data-m="tags"><span class="tag">Photography</span></div></div>
+    </article>
+    <article class="proj" data-category="Photography">
+      <div class="thumb" data-m="thumb"><img src="images/photography/holy-mass.jpg" alt="Holy Mass photography"></div>
+      <div class="body"><span class="cat" data-m="cat">Photography</span><h3 data-m="title">Mass of the Holy Spirit 2026</h3><p data-m="desc">Event photography.</p><div class="tags" data-m="tags"><span class="tag">Photography</span></div></div>
+    </article>
+    <article class="proj" data-category="Photography">
+      <div class="thumb" data-m="thumb"><img src="images/photography/ms-unor-2025.jpg" alt="Ms. UNOR 2025 photography"></div>
+      <div class="body"><span class="cat" data-m="cat">Photography</span><h3 data-m="title">Ms. UNOR 2025</h3><p data-m="desc">Event photography.</p><div class="tags" data-m="tags"><span class="tag">Photography</span></div></div>
+    </article>
+    <article class="proj" data-category="Photography">
+      <div class="thumb" data-m="thumb"><img src="images/photography/nopsscea.jpg" alt="NOPSSCEA event photography"></div>
+      <div class="body"><span class="cat" data-m="cat">Photography</span><h3 data-m="title">Ms. PRISAA 2024</h3><p data-m="desc">Event photography.</p><div class="tags" data-m="tags"><span class="tag">Photography</span></div></div>
+    </article>
+    <article class="proj" data-category="Photography">
+      <div class="thumb" data-m="thumb"><img src="images/photography/ucup-2024.jpg" alt="University Cup 2024 photography"></div>
+      <div class="body"><span class="cat" data-m="cat">Photography</span><h3 data-m="title">University Cup 2024</h3><p data-m="desc">Event photography.</p><div class="tags" data-m="tags"><span class="tag">Photography</span></div></div>
+    </article>
+    <article class="proj" data-category="Photography">
+      <div class="thumb" data-m="thumb"><img src="images/photography/ucup-2024-2.jpg" alt="University Cup 2024 photography, second image"></div>
+      <div class="body"><span class="cat" data-m="cat">Photography</span><h3 data-m="title">University Cup 2024</h3><p data-m="desc">Event photography.</p><div class="tags" data-m="tags"><span class="tag">Photography</span></div></div>
+    </article>
+    <article class="proj" data-category="Photography">
+      <div class="thumb" data-m="thumb"><img src="images/photography/ucup-2025.jpg" alt="University Cup 2025 photography"></div>
+      <div class="body"><span class="cat" data-m="cat">Photography</span><h3 data-m="title">University Cup 2025</h3><p data-m="desc">Event photography.</p><div class="tags" data-m="tags"><span class="tag">Photography</span></div></div>
+    </article>
+    <!-- CERTIFICATES -->
+    <article class="proj" data-category="Certificates">
+      <div class="thumb" data-m="thumb"><img src="images/certificate.jpg" alt="Certificate of achievement"></div>
+      <div class="body"><span class="cat" data-m="cat">Certificates</span><h3 data-m="title">Dean's List First Semester Certificate</h3><p data-m="desc">Certificate of achievement.</p><div class="tags" data-m="tags"><span class="tag">Certificate</span></div></div>
+    </article>
+  </div>
+  <p id="empty" hidden style="text-align:center;color:var(--muted);padding:40px 0">Nothing here yet — check back soon!</p>
+</main>
+
+<!-- Popup viewer (filled by script.js) -->
+<div class="modal" id="modal" hidden>
+  <div class="mbox">
+    <button class="x" id="m-close" aria-label="Close">×</button>
+    <div id="m-content"></div>
+  </div>
+</div>
+<footer>© <span id="yr"></span> Athea. Built with care in brown &amp; yellow.</footer>
+<script src="script.js"></script>
+</body>
+</html>
